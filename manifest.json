@@ -1,0 +1,12 @@
+{
+  "name": "Bing Translate To English...",
+  "description": "Adds a context menu to allow you to send the highlighted text to Bing Translate",
+  "version": "1.0",
+  "permissions": ["contextMenus"],
+  "icons": {
+    "16": "bingtranslate16.png",
+    "48": "bingtranslate48.png",
+    "128": "bingtranslate128.png"
+  },
+  "background_page": "background.html"
+}
