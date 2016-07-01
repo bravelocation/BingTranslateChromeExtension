@@ -1,5 +1,5 @@
-# Bing Translate to English Chrome Extension
-Adds a context menu to allow you to send the highlighted text to Bing Translate
+# Translate to English Chrome Extension
+Adds a context menu to allow you to send the highlighted text to the Microsoft Translator API
 
 ##INSTALL DETAILS
 

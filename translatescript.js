@@ -4,7 +4,7 @@ function translateOnClick(info, tab)
     // Setup the callback function to show the translation
 	window.translatecallback = function(response) {alert(response); };
 	
-	var appId = "66A8CA727C20371BED579D93DC7E476479EAC832";  //--- Replace your own Bing API code here. Register at http://go.microsoft.com/?linkid=9782667
+	var appId = "66A8CA727C20371BED579D93DC7E476479EAC832";  //--- Replace your own API code here. Register at http://go.microsoft.com/?linkid=9782667
     var toLanguage = "en";
     
     // Encode the text and build the AJAX URL
@@ -17,7 +17,7 @@ function translateOnClick(info, tab)
     document.getElementsByTagName("head")[0].appendChild(s);
 }
 
-var id = chrome.contextMenus.create({"title": "Bing Translate to English...", 
+var id = chrome.contextMenus.create({"title": "Translate to English...", 
                                         "contexts":["selection"],
                                         "onclick": translateOnClick});
 

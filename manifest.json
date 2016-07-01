@@ -1,16 +1,16 @@
 {
-  "name": "Bing Translate To English...",
-  "description": "Adds a context menu to allow you to send the highlighted text to Bing Translate",
-  "version": "1.1",
+  "name": "Translate To English...",
+  "description": "Adds a context menu to allow you to send the highlighted text to the Microsoft Translator API",
+  "version": "1.2",
   "manifest_version": 2,
   "permissions": ["contextMenus"],
   "icons": {
-    "16": "bingtranslate16.png",
-    "48": "bingtranslate48.png",
-    "128": "bingtranslate128.png"
+    "16": "translate16.png",
+    "48": "translate48.png",
+    "128": "translate128.png"
   },
   "content_security_policy": "script-src 'self' https://api.microsofttranslator.com; object-src 'self'",
   "background": {
- 	"scripts": ["bingtranslatescript.js"]
+ 	"scripts": ["translatescript.js"]
   }
 }
